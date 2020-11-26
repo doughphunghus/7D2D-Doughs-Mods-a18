@@ -29,12 +29,6 @@ alone clear it out.
 - 24 is "Perpetual Daylight".  I don't know if blood moon hordes will even spawn.
 Haven't tested as I don't plan to play with this setting, just providing it for completeness
 
-**Tested on:**
-
-| This Mod version | Game version | Note |
-|:------------------- |:------------------:| -------------:|
-| 18.3.1.0 | alpha 18.3 b4 | None |
-
 
 **Notes**
 Apparently some other people have simiar modlets containing this functionality (and possibly more):

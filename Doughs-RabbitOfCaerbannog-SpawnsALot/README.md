@@ -8,9 +8,3 @@ It now spawns anywhere animals can spawn and in some zombie groups. Highest spaw
 
 **Required mod**
 Doughs-RabbitOfCaerbannog
-
-**Tested on**:
-
-| This Mod version | Game version | Note |
-|:------------------- |:------------------:| -------------:|
-| 18.3.1.0 | alpha 18.3 b4 | None |

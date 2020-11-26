@@ -18,10 +18,3 @@ so all you lose is elevation and wind.
 You essentially have to rely on the compass for bedroll location (if you have one)
 and quests/airdrops/backpack locations as they show up as exclamation points on the compass.
 In addition, you should see the "distance" to an active quest marker in the main game UI.
-
-
-**Tested on:**
-
-| This Mod version | Game version | Note |
-|:------------------- |:------------------:| -------------:|
-| 18.3.1.0 | alpha 18.3 b3 | Likey works on all alpha 18+ |

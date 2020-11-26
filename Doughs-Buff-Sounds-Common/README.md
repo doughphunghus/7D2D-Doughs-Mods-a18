@@ -17,9 +17,3 @@ Currently this mod only adds sounds to these additional items.
 | wrench              | Harvesting         | 9             |
 | backpacks container | Opening+Closing    | 8             |
 | cupboards           | Opening+Closing    | 14            |
-
-**Tested on:**
-
-| This Mod version | Game version | Note |
-|:------------------- |:------------------:| -------------:|
-| v18.3.1.0 | alpha 18.3 b3| Likely works with all 18.2+ versions |

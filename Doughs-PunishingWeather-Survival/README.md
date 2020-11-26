@@ -2,9 +2,3 @@
 
 **Description:**
 Changes the temperature to be colder the higher up you go
-
-**Tested on**:
-
-| This Mod version | Game version | Note |
-|:------------------- |:------------------:| -------------:|
-| 18.3.1.0 | alpha 18.3 b3 | None |

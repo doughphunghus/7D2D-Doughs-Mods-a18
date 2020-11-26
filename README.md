@@ -1,11 +1,11 @@
 # 7D2D-Mods-a18
 
 **Description**
-My 7 Days to Die modlets for a18
+My 7 Days to Die modlets for a19
 
 See the README.md file in each modlet for details.
 
-Some modlets may not be compatible with all versions of a18!
+Some modlets may not be compatible with all versions of a19!
 
 **To install game mods**: [7 Days to Die modlet installation](https://gist.github.com/doughphunghus/a1907c5f63b5fe79bd823965328f25bf)
 

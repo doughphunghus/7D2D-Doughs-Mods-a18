@@ -27,10 +27,3 @@ Mechanical Parts
 Glass <- Can only be made in the forge with crucible. Basically "crude blobs of glass".
 
 Note: The items were chosen as "weighty/chunky" resource items. I cannot find a good way to make the junk turret ammo do different damage per ammo type. If I can figure this out I'll maybe make seperate ammo types, add broken glass, etc.
-
-
-**Tested on**:
-
-| This Mod version | Game version | Note |
-|:------------------- |:------------------:| -------------:|
-| v18.3.1.0 | alpha 18.2 b5 | Lightly tested |

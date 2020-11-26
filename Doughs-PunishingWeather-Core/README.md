@@ -20,12 +20,3 @@ Doughs-PunishingWeather-Effects-Medium
 In addition, there is another mod you can add that makes it more challenging.  The name
 is from the xml file it modifies (weathersurvival.xml):
 Doughs-PunishingWeather-Survival
-
-**Tested on:**
-
-| This Mod version | Game version | Note |
-|:------------------- |:------------------:| -------------:|
-| 18.3.1.0 | alpha 18.3 b3 | None |
-
-**Known issues:**
-None

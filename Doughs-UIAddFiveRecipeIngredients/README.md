@@ -13,9 +13,3 @@ could have >5 ingredients. Without this mod if a recipe has >5 ingredients you
 ingredients. This modlet is the best workaround I can come up with to add more
 ingredients (so you can see them) as I could not find a way to make the
 ingredient list scrollable.
-
-**Tested on**
-
-| This Mod version | Game version | Note |
-|:------------------- |:------------------:| -------------:|
-| 18.3.1.0 |alpha 18 b155 EXP | Likey works on all alpha 18+ |
