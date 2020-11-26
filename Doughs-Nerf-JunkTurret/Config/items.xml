@@ -1,0 +1,26 @@
+<Doughs>
+
+  <!-- The JunkTurret you carry -->
+  <!-- <set xpath="/items/item[@name='gunJunkTurret']/effect_group[@name='gunJunkTurret']/passive_effect[@name='RoundsPerMinute']/@value">80</set> --> <!-- DOUGH: DEFAULT: 105.6 -->
+  <set xpath="/items/item[@name='gunJunkTurret']/effect_group[@name='gunJunkTurret']/passive_effect[@name='SpreadDegreesVertical']/@value">10</set>  <!-- DOUGH: DEFAULT: 5 -->
+  <set xpath="/items/item[@name='gunJunkTurret']/effect_group[@name='gunJunkTurret']/passive_effect[@name='SpreadDegreesHorizontal']/@value">10</set>  <!-- DOUGH: DEFAULT: 5 -->
+  <set xpath="/items/item[@name='gunJunkTurret']/effect_group[@name='gunJunkTurret']/passive_effect[@name='KickDegreesVerticalMin']/@value">5</set>  <!-- DOUGH: DEFAULT: 3 -->
+  <set xpath="/items/item[@name='gunJunkTurret']/effect_group[@name='gunJunkTurret']/passive_effect[@name='KickDegreesVerticalMax']/@value">5</set>  <!-- DOUGH: DEFAULT: 3 -->
+  <set xpath="/items/item[@name='gunJunkTurret']/effect_group[@name='gunJunkTurret']/passive_effect[@name='KickDegreesHorizontalMin']/@value">5</set>  <!-- DOUGH: DEFAULT: -2 -->
+  <set xpath="/items/item[@name='gunJunkTurret']/effect_group[@name='gunJunkTurret']/passive_effect[@name='KickDegreesHorizontalMax']/@value">5</set>  <!-- DOUGH: DEFAULT: 2 -->
+  <set xpath="/items/item[@name='gunJunkTurret']/effect_group[@name='gunJunkTurret']/passive_effect[@name='JunkTurretActiveRange']/@value">20</set>  <!-- DOUGH: DEFAULT: 30 -->
+
+  <!-- complicated selectors -->
+  <set xpath="/items/item[@name='gunJunkTurret']/effect_group[@name='gunJunkTurret']/passive_effect[@name='DamageFalloffRange' and @operation='base_set']/@value">5</set>  <!-- DOUGH: DEFAULT: 30 -->
+  <set xpath="/items/item[@name='gunJunkTurret']/effect_group[@name='gunJunkTurret']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">8</set>  <!-- DOUGH: DEFAULT: 11.8 -->
+  <set xpath="/items/item[@name='gunJunkTurret']/effect_group[@name='gunJunkTurret']/passive_effect[@name='ModPowerBonus' and @operation='base_add']/@value">100</set>  <!-- DOUGH: DEFAULT: 30 -->
+
+  <!-- ammoJunkTurret -->
+  <set xpath="/items/item[@name='ammoJunkTurret']/property[@name='Stacknumber']/@value">300</set>  <!-- DOUGH: DEFAULT: 1000 -->
+  <set xpath="/items/item[@name='ammoJunkTurret']/effect_group[@name='ammoJunkTurret']/display_value[@name='dEntityDamage']/@value">8</set>  <!-- DOUGH: DEFAULT: 11.8 -->
+
+  <!-- DOUGH: TODO: Add new ammo....later. Its weird in the XML as it appears you
+     cannot easily assign teh turret to have ammo based damage both in the held and
+     deployed state.  So, for now, all ammo is "equal" to keep it simple -->
+
+</Doughs>

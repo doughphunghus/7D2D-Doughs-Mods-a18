@@ -1,0 +1,64 @@
+<Doughs>
+
+<!-- ONLY append AudioClips -->
+
+<append xpath="/Sounds/SoundDataNode[@name='wrench_harvest']">
+  <AudioClip ClipName="#@modfolder:Resources/wrench.unity3d?wrench_harvest-1"/>
+  <AudioClip ClipName="#@modfolder:Resources/wrench.unity3d?wrench_harvest-2"/>
+  <AudioClip ClipName="#@modfolder:Resources/wrench.unity3d?wrench_harvest-3"/>
+  <AudioClip ClipName="#@modfolder:Resources/wrench.unity3d?wrench_harvest-4"/>
+  <AudioClip ClipName="#@modfolder:Resources/wrench.unity3d?wrench_harvest-5"/>
+  <AudioClip ClipName="#@modfolder:Resources/wrench.unity3d?wrench_harvest-6"/>
+  <AudioClip ClipName="#@modfolder:Resources/wrench.unity3d?wrench_harvest-7"/>
+  <AudioClip ClipName="#@modfolder:Resources/wrench.unity3d?wrench_harvest-8"/>
+  <AudioClip ClipName="#@modfolder:Resources/wrench.unity3d?wrench_harvest-9"/>
+</append>
+
+<append xpath="/Sounds/SoundDataNode[@name='open_backpack']">
+  <AudioClip ClipName="#@modfolder:Resources/backpack.unity3d?open_backpack-1"/>
+  <AudioClip ClipName="#@modfolder:Resources/backpack.unity3d?open_backpack-2"/>
+  <AudioClip ClipName="#@modfolder:Resources/backpack.unity3d?open_backpack-3"/>
+  <AudioClip ClipName="#@modfolder:Resources/backpack.unity3d?open_backpack-4"/>
+</append>
+
+<append xpath="/Sounds/SoundDataNode[@name='close_backpack']">
+  <AudioClip ClipName="#@modfolder:Resources/backpack.unity3d?close_backpack-1"/>
+  <AudioClip ClipName="#@modfolder:Resources/backpack.unity3d?close_backpack-2"/>
+  <AudioClip ClipName="#@modfolder:Resources/backpack.unity3d?close_backpack-3"/>
+  <AudioClip ClipName="#@modfolder:Resources/backpack.unity3d?close_backpack-4"/>
+</append>
+
+<append xpath="/Sounds/SoundDataNode[@name='open_cupboard']">
+  <AudioClip ClipName="#@modfolder:Resources/cupboard.unity3d?open_cupboard-1"/>
+  <AudioClip ClipName="#@modfolder:Resources/cupboard.unity3d?open_cupboard-2"/>
+  <AudioClip ClipName="#@modfolder:Resources/cupboard.unity3d?open_cupboard-3"/>
+  <AudioClip ClipName="#@modfolder:Resources/cupboard.unity3d?open_cupboard-4"/>
+  <AudioClip ClipName="#@modfolder:Resources/cupboard.unity3d?open_cupboard-5"/>
+  <AudioClip ClipName="#@modfolder:Resources/cupboard.unity3d?open_cupboard-6"/>
+  <AudioClip ClipName="#@modfolder:Resources/cupboard.unity3d?open_cupboard-7"/>
+</append>
+
+<append xpath="/Sounds/SoundDataNode[@name='close_cupboard']">
+  <AudioClip ClipName="#@modfolder:Resources/cupboard.unity3d?close_cupboard-1"/>
+  <AudioClip ClipName="#@modfolder:Resources/cupboard.unity3d?close_cupboard-2"/>
+  <AudioClip ClipName="#@modfolder:Resources/cupboard.unity3d?close_cupboard-3"/>
+  <AudioClip ClipName="#@modfolder:Resources/cupboard.unity3d?close_cupboard-4"/>
+  <AudioClip ClipName="#@modfolder:Resources/cupboard.unity3d?close_cupboard-5"/>
+  <AudioClip ClipName="#@modfolder:Resources/cupboard.unity3d?close_cupboard-6"/>
+  <AudioClip ClipName="#@modfolder:Resources/cupboard.unity3d?close_cupboard-7"/>
+</append>
+
+
+
+
+<!-- ewww These sounds are terrible right now
+<append xpath="/Sounds/SoundDataNode[@name='forge_item_complete']">
+  <AudioClip ClipName="#@modfolder:Resources/forge.unity3d?forge_item_complete-1"/>
+  <AudioClip ClipName="#@modfolder:Resources/forge.unity3d?forge_item_complete-2"/>
+  <AudioClip ClipName="#@modfolder:Resources/forge.unity3d?forge_item_complete-3"/>
+  <AudioClip ClipName="#@modfolder:Resources/forge.unity3d?forge_item_complete-4"/>
+  <AudioClip ClipName="#@modfolder:Resources/forge.unity3d?forge_item_complete-5"/>
+</append>
+-->
+
+</Doughs>

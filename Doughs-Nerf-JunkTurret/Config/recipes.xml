@@ -1,0 +1,32 @@
+<Doughs>
+
+  <!-- Change vanilla -->
+  <set xpath="/recipes/recipe[@name='ammoJunkTurret']/ingredient[@name='resourceScrapIron']/@count">7</set>  <!-- DOUGH: DEFAULT: 3 -->
+
+  <!-- Add custom -->
+  <append xpath="/recipes">
+
+    <!-- DOUGH: TODO: Make ammo all seperate. Its weird in the XML as it appears you
+       cannot easily assign teh turret to have ammo based damage both in the held and
+       deployed state.  So, for now, all ammo is "equal" to keep it simple -->
+
+    <recipe name="ammoJunkTurret" count="1">
+      <ingredient name="resourceScrapBrass" count="7"/>
+    </recipe>
+    <recipe name="ammoJunkTurret" count="1">
+      <ingredient name="resourceCobblestones" count="5"/>
+    </recipe>
+    <recipe name="ammoJunkTurret" count="1">
+      <ingredient name="resourceScrapLead" count="7"/>
+    </recipe>
+    <recipe name="ammoJunkTurret" count="1">
+      <ingredient name="resourceMechanicalParts" count="7"/>
+    </recipe>
+    <!-- DOUGH: Melt it so its chunks, not little pieces -->
+    <recipe name="ammoJunkTurret" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering" craft_tool="toolForgeCrucible">
+      <ingredient name="unit_glass" count="5"/>
+    </recipe>
+
+  </append>
+
+</Doughs>

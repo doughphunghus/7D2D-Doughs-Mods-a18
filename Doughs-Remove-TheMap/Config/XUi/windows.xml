@@ -1,0 +1,12 @@
+<Doughs>
+  <!-- DOUGH: Remove interacting with the map to place markers.
+  Default: style="press, scroll, hover"
+  -->
+  <set xpath="/windows/window[@name='mapArea']/panel[@name='content']/panel[@name='mapView']/@style">""</set>
+
+  <!-- DOUGH: Block the map by making the clipping panel not invisible
+  Note: This blocks all statistics on the map too :(
+    Wish we could not block them.
+  -->
+  <set xpath="/windows/window[@name='mapArea']/panel[@name='content']/panel[@name='mapView']/panel[@name='clippingPanel']/@disableautobackground">false</set>
+</Doughs>

@@ -1,0 +1,1888 @@
+<Doughs>
+  <append xpath="/items">
+    <!--
+
+
+    PAPER: <property name="CustomIcon" value="resourcePaper"/>
+    OLD CHECKLIST: <property name="CustomIcon" value="questMaster"/>
+    YELLOW STICKY: <property name="CustomIcon" value="challengeQuestMaster"/>
+    OLD NONDESCRIPT BROWN BOOK: <property name="CustomIcon" value="schematicMaster"/>
+    <property name="CustomIcon" value="paintingBen"/> <- and others
+    <property name="CustomIcon" value="cntShippingCrateHero"/>
+    <property name="CustomIcon" value="cntGarageStorage"/>
+
+    Colors:
+    PINK: <property name="CustomIconTint" value="210,0,210"/>
+    RED: 210,4,0
+    DIRTY RED: 140, 90, 98
+    PERSIMMON: 140, 90, 108
+    PEACH 201, 127, 111
+    ORANGE: 210, 94, 0
+    DK YELLOW 179, 129, 77
+    YELLOW: 210, 192, 0
+    MUSTARD: 179, 159, 77
+    LIME: 165, 210, 0
+    GREEN: 66, 210, 0
+    PEA GREEN: 162, 179, 77
+    TEAL: 0, 210, 157
+    TEAL2: 77, 165, 179
+    SEA BLUE: 0, 203, 210
+    BLUE: 0, 182, 210
+    LOW BLUE: 77, 142, 179
+    LOW BLURPLE: 77, 123, 179
+    DARK BLUE: 0, 133, 210
+    SUPER DARK BLUE: 0, 49, 210
+    PURPLE: 88, 0, 210
+    LIGHT PURPLE: 140, 0, 210
+    PINK: 189, 0, 210
+    PINK2: 210, 0, 189
+    LIGHT PINK: 217, 211, 237
+    HOT PINK: 210, 0, 133
+    WHITISHL
+    GREYISH:
+    DARKISH:
+    BLACK: 0, 0, 0 <property name="CustomIconTint" value="0, 0, 0"/>
+    -->
+    <!--
+        Boxes:
+        Basic cardboard box: <property name="CustomIcon" value="cntGarageStorage"/>
+        ?? <property name="CustomIcon" value="cntShippingCrateHero"/>
+
+        Sounds:
+        <property name="Sound_start" value="open_cardboard"/>
+        <property name="Sound_start" value="player_bandage"/>
+
+        PINK: <property name="CustomIconTint" value="210,0,210"/>
+        RED: 210,4,0
+        DIRTY RED: 140, 90, 98
+        PERSIMMON: 140, 90, 108
+        PEACH 201, 127, 111
+        ORANGE: 210, 94, 0
+        DK YELLOW 179, 129, 77
+        YELLOW: 210, 192, 0
+        MUSTARD: 179, 159, 77
+        LIME: 165, 210, 0
+        GREEN: 66, 210, 0
+        PEA GREEN: 162, 179, 77
+        TEAL: 0, 210, 157
+        TEAL2: 77, 165, 179
+        SEA BLUE: 0, 203, 210
+        BLUE: 0, 182, 210
+        LOW BLUE: 77, 142, 179
+        LOW BLURPLE: 77, 123, 179
+        DARK BLUE: 0, 133, 210
+        SUPER DARK BLUE: 0, 49, 210
+        PURPLE: 88, 0, 210
+        LIGHT PURPLE: 140, 0, 210
+        PINK: 189, 0, 210
+        PINK2: 210, 0, 189
+        LIGHT PINK: 217, 211, 237
+        HOT PINK: 210, 0, 133
+        WHITISHL
+        GREYISH:
+        DARKISH:
+        BLACK: 0, 0, 0 <property name="CustomIconTint" value="0, 0, 0"/>
+
+        BOXES WITH JUST NOTES IN THEM
+        BOXES WITH BLOCKS IN THEM
+        QUESTS
+      -->
+
+    <!-- ######################################################################
+    Generic Paper notes. Can only read and scrap
+    ####################################################################### -->
+
+    <!--
+    Looks like old checklist. Generic for any purpose
+    -->
+    <item name="doughs_OldPaper_Base">
+    	<property name="Extends" value="blankNoteMaster"/>
+      <property name="CustomIcon" value="questMaster"/>
+      <property name="DescriptionKey" value="doughs_OldPaper_BaseDesc"/>
+    </item>
+    <item name="doughs_OldPaper_001">
+      <property name="Extends" value="doughs_OldPaper_Base"/>
+      <property name="CustomIconTint" value="133, 126, 126"/>
+      <property name="DescriptionKey" value="doughs_OldPaper_001Desc"/>
+    </item>
+    <item name="doughs_OldPaper_002">
+      <property name="Extends" value="doughs_OldPaper_Base"/>
+      <property name="DescriptionKey" value="doughs_OldPaper_002Desc"/>
+    </item>
+    <item name="doughs_OldPaper_003">
+      <property name="Extends" value="doughs_OldPaper_Base"/>
+      <property name="CustomIconTint" value="210, 192, 0"/>
+      <property name="DescriptionKey" value="doughs_OldPaper_003Desc"/>
+    </item>
+    <item name="doughs_OldPaper_004">
+      <property name="Extends" value="doughs_OldPaper_Base"/>
+      <property name="DescriptionKey" value="doughs_OldPaper_004Desc"/>
+    </item>
+    <item name="doughs_OldPaper_005">
+      <property name="Extends" value="doughs_OldPaper_Base"/>
+      <property name="CustomIconTint" value="210, 192, 0"/>
+      <property name="DescriptionKey" value="doughs_OldPaper_005Desc"/>
+    </item>
+    <item name="doughs_OldPaper_006">
+      <property name="Extends" value="doughs_OldPaper_Base"/>
+      <property name="DescriptionKey" value="doughs_OldPaper_006Desc"/>
+    </item>
+    <item name="doughs_OldPaper_007">
+      <property name="Extends" value="doughs_OldPaper_Base"/>
+      <property name="CustomIconTint" value="210, 192, 0"/>
+      <property name="DescriptionKey" value="doughs_OldPaper_007Desc"/>
+    </item>
+    <item name="doughs_OldPaper_008">
+      <property name="Extends" value="doughs_OldPaper_Base"/>
+      <property name="CustomIconTint" value="179, 159, 77"/>
+      <property name="DescriptionKey" value="doughs_OldPaper_008Desc"/>
+    </item>
+    <item name="doughs_OldPaper_009">
+      <property name="Extends" value="doughs_OldPaper_Base"/>
+      <property name="CustomIconTint" value="140, 90, 98"/>
+      <property name="DescriptionKey" value="doughs_OldPaper_009Desc"/>
+    </item>
+    <item name="doughs_OldPaper_010">
+      <property name="Extends" value="doughs_OldPaper_Base"/>
+      <property name="DescriptionKey" value="doughs_OldPaper_010Desc"/>
+    </item>
+
+    <!--
+    Looks like yellow sticky. Generic Notes for any purpose
+    -->
+    <item name="doughs_StickyNote_Base">
+    	<property name="Extends" value="blankNoteMaster"/>
+      <property name="CustomIcon" value="challengeQuestMaster"/>
+      <property name="DescriptionKey" value="doughs_StickyNote_BaseDesc"/>
+    </item>
+    <item name="doughs_StickyNote_001">
+      <property name="Extends" value="doughs_StickyNote_Base"/>
+      <property name="DescriptionKey" value="doughs_StickyNote_001Desc"/>
+    </item>
+    <item name="doughs_StickyNote_002">
+      <property name="Extends" value="doughs_StickyNote_Base"/>
+      <property name="CustomIconTint" value="210, 0, 133"/>
+      <property name="DescriptionKey" value="doughs_StickyNote_002Desc"/>
+    </item>
+    <item name="doughs_StickyNote_003">
+      <property name="Extends" value="doughs_StickyNote_Base"/>
+      <property name="CustomIconTint" value="210, 0, 133"/>
+      <property name="DescriptionKey" value="doughs_StickyNote_003Desc"/>
+    </item>
+    <item name="doughs_StickyNote_004">
+      <property name="Extends" value="doughs_StickyNote_Base"/>
+      <property name="CustomIconTint" value="140, 0, 210"/>
+      <property name="DescriptionKey" value="doughs_StickyNote_004Desc"/>
+    </item>
+    <item name="doughs_StickyNote_005">
+      <property name="Extends" value="doughs_StickyNote_Base"/>
+      <property name="CustomIconTint" value="210, 94, 0"/>
+      <property name="DescriptionKey" value="doughs_StickyNote_005Desc"/>
+    </item>
+    <item name="doughs_StickyNote_006">
+      <property name="Extends" value="doughs_StickyNote_Base"/>
+      <property name="CustomIconTint" value="77, 165, 179"/>
+      <property name="DescriptionKey" value="doughs_StickyNote_006Desc"/>
+    </item>
+    <item name="doughs_StickyNote_007">
+      <property name="Extends" value="doughs_StickyNote_Base"/>
+      <property name="CustomIconTint" value="201, 127, 111"/>
+      <property name="DescriptionKey" value="doughs_StickyNote_007Desc"/>
+    </item>
+    <item name="doughs_StickyNote_008">
+      <property name="Extends" value="doughs_StickyNote_Base"/>
+      <property name="DescriptionKey" value="doughs_StickyNote_008Desc"/>
+    </item>
+    <item name="doughs_StickyNote_009">
+      <property name="Extends" value="doughs_StickyNote_Base"/>
+      <property name="CustomIconTint" value="77, 165, 179"/>
+      <property name="DescriptionKey" value="doughs_StickyNote_009Desc"/>
+    </item>
+    <item name="doughs_StickyNote_010">
+      <property name="Extends" value="doughs_StickyNote_Base"/>
+      <property name="CustomIconTint" value="217, 211, 237"/>
+      <property name="DescriptionKey" value="doughs_StickyNote_010Desc"/>
+    </item>
+    <!--
+    Looks like paper. Generic Notes for any purpose
+    -->
+    <item name="doughs_PaperNote_Base">
+      <property name="Extends" value="blankNoteMaster"/>
+      <property name="CustomIcon" value="resourcePaper"/>
+      <property name="DescriptionKey" value="doughs_PaperNote_BaseDesc"/>
+    </item>
+    <item name="doughs_PaperNote_001">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_PaperNote_001Desc"/>
+    </item>
+    <item name="doughs_PaperNote_002">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="CustomIconTint" value="210, 192, 0"/>
+      <property name="DescriptionKey" value="doughs_PaperNote_002Desc"/>
+    </item>
+    <item name="doughs_PaperNote_003">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="CustomIconTint" value="133, 126, 126"/>
+      <property name="DescriptionKey" value="doughs_PaperNote_003Desc"/>
+    </item>
+    <item name="doughs_PaperNote_004">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_PaperNote_004Desc"/>
+    </item>
+    <item name="doughs_PaperNote_005">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="CustomIconTint" value="133, 126, 126"/>
+      <property name="DescriptionKey" value="doughs_PaperNote_005Desc"/>
+    </item>
+    <item name="doughs_PaperNote_006">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_PaperNote_006Desc"/>
+    </item>
+    <item name="doughs_PaperNote_007">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="CustomIconTint" value="210, 192, 0"/>
+      <property name="DescriptionKey" value="doughs_PaperNote_007Desc"/>
+    </item>
+    <item name="doughs_PaperNote_008">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_PaperNote_008Desc"/>
+    </item>
+    <item name="doughs_PaperNote_009">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="CustomIconTint" value="179, 159, 77"/>
+      <property name="DescriptionKey" value="doughs_PaperNote_009Desc"/>
+    </item>
+    <item name="doughs_PaperNote_010">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_PaperNote_010Desc"/>
+    </item>
+
+    <item name="doughs_GovFlyer_001">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_GovFlyer_001Desc"/>
+    </item>
+    <item name="doughs_GovFlyer_002">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_GovFlyer_002Desc"/>
+    </item>
+    <item name="doughs_GovFlyer_003">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_GovFlyer_003Desc"/>
+    </item>
+    <item name="doughs_GovFlyer_004">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_GovFlyer_004Desc"/>
+    </item>
+    <item name="doughs_GovFlyer_005">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_GovFlyer_005Desc"/>
+    </item>
+    <item name="doughs_GovFlyer_006">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_GovFlyer_006Desc"/>
+    </item>
+    <item name="doughs_GovFlyer_007">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_GovFlyer_007Desc"/>
+    </item>
+    <item name="doughs_GovFlyer_008">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_GovFlyer_008Desc"/>
+    </item>
+    <item name="doughs_GovFlyer_009">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_GovFlyer_009Desc"/>
+    </item>
+    <item name="doughs_GovFlyer_010">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_GovFlyer_010Desc"/>
+    </item>
+
+    <!-- ##########
+    NOTE: See Parcels section for Parcel Specific notes
+    ############# -->
+
+    <!-- #####################################################################
+    SPECIAL ITEMS
+    ####################################################################### -->
+    <item name="doughs_BrassBB">
+    	<property name="Tags" value="ammo"/>
+    	<property name="DisplayType" value="ammoBullet"/>
+    	<property name="HoldType" value="45"/>
+      <property name="CustomIconTint" value="f4d03f"/> <!-- DOUGH: yellow to look more brassy -->
+      <property name="TintColor" value="244,208,63"/> <!-- DOUGH: RGB. Tints the item in the hand -->
+      <property name="DescriptionKey" value="doughs_BrassBBDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="resourceBuckshot"/> <!-- DOUGH: The item -->
+    	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+    	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+    	<property name="Material" value="Mbrass"/>
+    	<property name="Stacknumber" value="5000"/> <!-- DOUGH: Hee -->
+    	<property name="EconomicValue" value="1"/>
+    	<property name="Group" value="Ammo/Weapons"/>
+      <property name="UnlockedBy" value="doughs_BrassBB_Schematic"/>
+    	<effect_group name="doughs_BrassBB" tiered="false">
+    		<passive_effect name="EntityDamage" operation="base_set" value="2"/>
+    		<passive_effect name="BlockDamage" operation="base_set" value="0"/> <!-- DOUGH: Hee -->
+    		<passive_effect name="DamageModifier" operation="perc_add" value="10" tags="glass"/> <!-- DOUGH: Hee -->
+        <passive_effect name="DamageModifier" operation="base_set" value="0" tags="earth,metal,cloth,stone,wood,metal,organic,water"/> <!-- DOUGH: Hee -->
+
+    	</effect_group>
+    </item>
+
+    <item name="doughs_BrassBB_Schematic">
+      <property name="Extends" value="schematicMaster"/>
+      <property name="DescriptionKey" value="doughs_BrassBB_SchematicDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="schematicMaster"/>
+      <property name="Unlocks" value="doughs_BrassBB"/>
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="doughs_BrassBB" operation="set" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+      </effect_group>
+    </item>
+
+    <item name="doughs_gunPistolBB">  <!-- DOUGH: Taken from gunPistol -->
+      <property name="Extends" value="gunPistol"/>
+    	<property name="SoundJammed" value="weapon_jam"/>
+      <property name="CustomIconTint" value="cc9966"/> <!-- DOUGH: BROWN to look more not real-y -->
+      <property name="TintColor" value="204, 153, 102"/> <!-- DOUGH: BROWN. RGB. Tints the item in the hand -->
+      <property name="DescriptionKey" value="doughs_gunPistolBBDesc"/> <!-- DOUGH: Fun text -->
+      <property name="Material" value="Mmetal"/>
+      <property name="CustomIcon" value="gunPistol"/> <!-- DOUGH: The item -->
+    	<property name="Attachments" value="meleeToolFlashlight02"/>
+    	<property name="CrosshairOnAim" value="false"/> <!-- aimTest -->
+    	<property name="CrosshairUpAfterShot" value="false"/> <!-- aimTest -->
+    	<property name="Sound_Sight_In" value="pistol_sight_in"/>
+    	<property name="Sound_Sight_Out" value="pistol_sight_out"/>
+    	<property name="LightSource" value="lightSource"/> <!-- Start: Needed for the attachment flashlight -->
+    	<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
+    	<property name="AttachmentFlashlight" value="flashlight02"/> <!-- End: Needed for the attachment flashlight -->
+    	<property name="Group" value="Ammo/Weapons"/>
+    	<property name="RepairExpMultiplier" value="10.8"/>
+    	<property name="LightValue" value=".45"/>
+    	<property name="EconomicValue" value="20"/>
+    	<property name="UnlockedBy" value="perkGunslinger,gunPistolSchematic"/>
+    	<property name="ShowQuality" value="true"/>
+
+    	<property class="Action0">
+    		<property name="Class" value="Ranged"/>
+    		<property name="Magazine_items" value="doughs_BrassBB"/>
+    		<property name="Sound_start" value="nailgun_fire"/>
+    		<property name="Sound_loop" value="dryfire"/>
+    		<property name="Sound_end" value=""/>
+    		<property name="Sound_empty" value="dryfire"/>
+    		<property name="Sound_reload" value="nailgun_reload"/>
+    		<property name="AutoReload" value="true"/>
+    		<property name="Particles_muzzle_fire" value="nailgunfire"/>
+    		<property name="Particles_muzzle_fire_fpv" value="gunfire_pistol_fpv"/>
+    		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+    	</property>
+    	<property class="Action1">
+    		<property name="Class" value="Zoom"/>
+    		<property name="Zoom_max_out" value="15"/> <!-- DOUGH -->
+    		<property name="Zoom_max_in" value="15"/> <!-- DOUGH -->
+    		<property name="ScopeCameraOffset" value="0,.0008,0"/>
+    	</property>
+
+    	<effect_group name="doughs_gunPistolBB">
+
+        <passive_effect name="DamageFalloffRange" operation="base_set" value="3"/> <!-- DOUGH -->
+        <passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/> <!-- DOUGH -->
+        <passive_effect name="MaxRange" operation="base_set" value="20"/> <!-- DOUGH -->
+
+    		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
+    		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="5"/> <!-- DOUG: 1 = 2s, 5 = 10 sec? -->
+    		<passive_effect name="ModSlots" operation="base_set" value="1" tier="1"/> <!-- DOUGH: You can put a light on it-->
+    		<passive_effect name="ModPowerBonus" operation="base_add" value="20" tags="EconomicValue"/>
+
+    		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkGunslinger"/> <!-- random DegMax -->
+    		<passive_effect name="RoundsPerMinute" operation="base_set" value="200"/> <!-- DOUGH -->
+    		<passive_effect name="MagazineSize" operation="base_set" value="253"/> <!-- DOUGH: Hee -->
+    		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/> <!-- random WeaponHandling -->
+
+    		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.5"/>
+    		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.5"/>
+    		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".4"/>
+    		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".8"/>
+    		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5"/>
+    		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2.2"/>
+
+    		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value=".05"/>
+    		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".05"/>
+
+    		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.05"/>
+    		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".05"/>
+
+    		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2.0"/>
+    		<passive_effect name="WeaponHandling" operation="base_set" value=".95"/> <!-- crosshair reset speed -->
+
+    		<passive_effect name="DegradationMax" operation="base_set" value="250,450" tier="1,6" tags="perkGunslinger,9mmGun"/>
+    		<passive_effect name="DegradationPerUse" operation="base_set" value=".05" tags="perkGunslinger,9mmGun"/><!-- DOUGH: its a bb gun-->
+    	</effect_group>
+    </item>
+
+
+    <!-- ######################################################################
+    Generic Paper books. Can only read and scrap
+    ####################################################################### -->
+    <!--
+    Looks old brown book
+    -->
+    <item name="doughs_BrownBook_Base">
+      <property name="Extends" value="blankNoteMaster"/>
+      <property name="CustomIcon" value="schematicMaster"/> <!-- looks like old brown book -->
+      <property name="DescriptionKey" value="doughs_BrownBook_BaseDesc"/>
+    </item>
+    <item name="doughs_BrownBook_001">
+      <property name="Extends" value="doughs_BrownBook_Base"/>
+      <property name="DescriptionKey" value="doughs_BrownBook_001Desc"/>
+    </item>
+    <item name="doughs_BrownBook_002">
+      <property name="Extends" value="doughs_BrownBook_Base"/>
+      <property name="CustomIconTint" value="84, 78, 78"/>
+      <property name="DescriptionKey" value="doughs_BrownBook_002Desc"/>
+    </item>
+    <item name="doughs_BrownBook_003">
+      <property name="Extends" value="doughs_BrownBook_Base"/>
+      <property name="DescriptionKey" value="doughs_BrownBook_003Desc"/>
+    </item>
+    <item name="doughs_BrownBook_004">
+      <property name="Extends" value="doughs_BrownBook_Base"/>
+      <property name="CustomIconTint" value="0, 0, 0"/>
+      <property name="DescriptionKey" value="doughs_BrownBook_004Desc"/>
+    </item>
+    <item name="doughs_BrownBook_005">
+      <property name="Extends" value="doughs_BrownBook_Base"/>
+      <property name="CustomIconTint" value="181, 170, 170"/>
+      <property name="DescriptionKey" value="doughs_BrownBook_005Desc"/>
+    </item>
+    <item name="doughs_BrownBook_006">
+      <property name="Extends" value="doughs_BrownBook_Base"/>
+      <property name="CustomIconTint" value="140, 90, 98"/>
+      <property name="DescriptionKey" value="doughs_BrownBook_006Desc"/>
+    </item>
+    <item name="doughs_BrownBook_007">
+      <property name="Extends" value="doughs_BrownBook_Base"/>
+      <property name="CustomIconTint" value="140, 90, 98"/>
+      <property name="DescriptionKey" value="doughs_BrownBook_007Desc"/>
+    </item>
+    <item name="doughs_BrownBook_008">
+      <property name="Extends" value="doughs_BrownBook_Base"/>
+      <property name="DescriptionKey" value="doughs_BrownBook_008Desc"/>
+    </item>
+    <item name="doughs_BrownBook_009">
+      <property name="Extends" value="doughs_BrownBook_Base"/>
+      <property name="CustomIconTint" value="210, 0, 133"/>
+      <property name="DescriptionKey" value="doughs_BrownBook_009Desc"/>
+    </item>
+    <item name="doughs_BrownBook_010">
+      <property name="Extends" value="doughs_BrownBook_Base"/>
+      <property name="CustomIconTint" value="0, 0, 0"/>
+      <property name="DescriptionKey" value="doughs_BrownBook_010Desc"/>
+    </item>
+    <item name="doughs_BrownBook_011">
+      <property name="Extends" value="doughs_BrownBook_Base"/>
+      <property name="CustomIconTint" value="165, 210, 0"/>
+      <property name="DescriptionKey" value="doughs_BrownBook_011Desc"/>
+    </item>
+    <item name="doughs_BrownBook_012">
+      <property name="Extends" value="doughs_BrownBook_Base"/>
+      <property name="CustomIconTint" value="66, 210, 0"/>
+      <property name="DescriptionKey" value="doughs_BrownBook_012Desc"/>
+    </item>
+    <item name="doughs_BrownBook_013">
+      <property name="Extends" value="doughs_BrownBook_Base"/>
+      <property name="CustomIconTint" value="66, 210, 0"/>
+      <property name="DescriptionKey" value="doughs_BrownBook_013Desc"/>
+    </item>
+    <item name="doughs_BrownBook_014">
+      <property name="Extends" value="doughs_BrownBook_Base"/>
+      <property name="CustomIconTint" value="179, 159, 77"/>
+      <property name="DescriptionKey" value="doughs_BrownBook_014Desc"/>
+    </item>
+    <item name="doughs_BrownBook_015">
+      <property name="Extends" value="doughs_BrownBook_Base"/>
+      <property name="CustomIconTint" value="179, 129, 77"/>
+      <property name="DescriptionKey" value="doughs_BrownBook_015Desc"/>
+    </item>
+    <item name="doughs_BrownBook_016">
+      <property name="Extends" value="doughs_BrownBook_Base"/>
+      <property name="CustomIconTint" value="210, 94, 0"/>
+      <property name="DescriptionKey" value="doughs_BrownBook_016Desc"/>
+    </item>
+    <item name="doughs_BrownBook_017">
+      <property name="Extends" value="doughs_BrownBook_Base"/>
+      <property name="CustomIconTint" value="0, 0, 0"/>
+      <property name="DescriptionKey" value="doughs_BrownBook_017Desc"/>
+    </item>
+    <item name="doughs_BrownBook_018">
+      <property name="Extends" value="doughs_BrownBook_Base"/>
+      <property name="CustomIconTint" value="179, 129, 77"/>
+      <property name="DescriptionKey" value="doughs_BrownBook_018Desc"/>
+    </item>
+
+    <!-- ######################################################################
+    Useless items
+    ####################################################################### -->
+    <item name="doughs_UselessItem_Base">
+    	<property name="Extends" value="blankNoteMaster"/>
+    	<property name="DescriptionKey" value="doughs_UselessItem_BaseDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="resourceLockPick"/> <!-- DOUGH: The item -->
+      <property name="Material" value="Mmetal"/> <!-- The material to scrap it to -->
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+    	<property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+
+      <!-- When extending, dont need these unless you want -->
+      <property name="HoldType" value="45"/>
+    	<property name="Tags" value="junk"/>
+    	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+    	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+    	<property name="Weight" value="5"/>
+    	<property name="Stacknumber" value="10"/> <!-- Just enough you think it might be something else -->
+    </item>
+
+    <item name="doughs_UselessItem_LockPick">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_LockPickDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="resourceLockPick"/> <!-- DOUGH: The item -->
+      <property name="Material" value="Mmetal"/> <!-- The material to scrap it to -->
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_CrazyStraw">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="210,0,210"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_CrazyStrawDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="resourceSpring"/> <!-- DOUGH: The item -->
+      <property name="Material" value="Mmetal"/> <!-- The material to scrap it to -->
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_LintFluff">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="133, 126, 126"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_LintFluffDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="resourceSilverNugget"/> <!-- DOUGH: The item -->
+      <property name="Material" value="Mcloth"/> <!-- The material to scrap it to -->
+      <property name="SellableToTrader" value="false"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_BoardGameMoney">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="0, 203, 210"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_BoardGameMoneyDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="oldCash"/> <!-- DOUGH: The item -->
+      <property name="Material" value="MoldCash"/> <!-- The material to scrap it to -->
+      <property name="SellableToTrader" value="false"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_LabelingTape">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="66, 210, 0"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_LabelingTapeDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="resourceMilitaryFiber"/> <!-- DOUGH: The item -->
+      <property name="Material" value="Mplastics"/> <!-- The material to scrap it to -->
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_WrappingPaperRibbon">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="210,4,0"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_WrappingPaperRibbonDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="resourceMilitaryFiber"/> <!-- DOUGH: The item -->
+      <property name="Material" value="Mplastics"/> <!-- The material to scrap it to -->
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_CellophaneTape">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="181, 170, 170"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_CellophaneTapeDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="resourceMilitaryFiber"/> <!-- DOUGH: The item -->
+      <property name="Material" value="Mplastics"/> <!-- The material to scrap it to -->
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_SprayTan">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="210, 94, 0"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_SprayTanDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="drinkCanMegaCrush"/> <!-- DOUGH: The item -->
+      <property name="Material" value="Mmetal"/> <!-- The material to scrap it to -->
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_AirFreshener">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="0, 210, 157"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_AirFreshenerDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="drinkCanMegaCrush"/> <!-- DOUGH: The item -->
+      <property name="Material" value="Mmetal"/> <!-- The material to scrap it to -->
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_BugBomb">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="210,4,0"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_BugBombDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="drinkCanMegaCrush"/> <!-- DOUGH: The item -->
+      <property name="Material" value="Mmetal"/> <!-- The material to scrap it to -->
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_TinyCandy">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="189, 0, 210"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_TinyCandyDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="resourceForgedIron"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="0"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_JarOfUrine">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_JarOfUrineDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="drinkJarRiverWater"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="false"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="0"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_Empty35mmFilmCanister">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="0, 0, 0"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_Empty35mmFilmCanisterDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="resourceBulletCasing"/> <!-- DOUGH: The item -->
+      <property name="Material" value="Mplastics"/> <!-- The material to scrap it to -->
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_EmptyCardboardBox">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_EmptyCardboardBoxDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="cntGarageStorage"/> <!-- DOUGH: The item -->
+      <property name="Material" value="Mpaper"/> <!-- The material to scrap it to -->
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_DollhouseSizedChemistryStation">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_DollhouseSizedChemistryStationDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="chemistryStation"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="false"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="0"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_DollhouseSizedWorkbench">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_DollhouseSizedWorkbenchDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="workbench"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="false"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="0"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_DollhouseSizedTableSaw">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_DollhouseSizedTableSawDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="tableSaw"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="false"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="0"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_PetRock">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="84, 78, 78"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_PetRockDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="foodBakedPotato"/> <!-- DOUGH: The item -->
+      <property name="Material" value="Mstone"/> <!-- The material to scrap it to -->
+      <property name="SellableToTrader" value="false"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="0"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_ToyBeaker">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_ToyBeakerDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="toolBeaker"/> <!-- DOUGH: The item -->
+      <property name="Material" value="Mplastics"/> <!-- The material to scrap it to -->
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_HotWaterBag">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="210,4,0"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_HotWaterBagDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="medicalBloodBag"/> <!-- DOUGH: The item -->
+      <property name="Material" value="Morganic"/> <!-- The material to scrap it to -->
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_BlueberryPieDish">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_BlueberryPieDishDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="foodBlueberryPie"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_ToyExpandingFoam">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_ToyExpandingFoamDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="drugAntibiotics"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_IncenseStickBundle">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="204, 102, 153"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_IncenseStickBundleDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="resourceYuccaFibers"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_ToyPickUpSticksBundle">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="255, 255, 204"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_ToyPickUpSticksBundleDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="resourceYuccaFibers"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_TwistyTiesBundle">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="66, 210, 0"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_TwistyTiesBundleDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="resourceYuccaFibers"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_OldTowel_001">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="133, 126, 126"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_OldTowel_001Desc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="apparelSkirt"/> <!-- DOUGH: The item -->
+      <property name="Material" value="Mcloth"/> <!-- The material to scrap it to -->
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_OldTowel_002">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="84, 78, 78"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_OldTowel_002Desc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="apparelSkirt"/> <!-- DOUGH: The item -->
+      <property name="Material" value="Mcloth"/> <!-- The material to scrap it to -->
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_OldTowel_003">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="210,4,0"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_OldTowel_003Desc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="apparelSkirt"/> <!-- DOUGH: The item -->
+      <property name="Material" value="Mcloth"/> <!-- The material to scrap it to -->
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_OldTowel_004">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="0, 210, 157"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_OldTowel_004Desc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="apparelSkirt"/> <!-- DOUGH: The item -->
+      <property name="Material" value="Mcloth"/> <!-- The material to scrap it to -->
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_OldTowel_005">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_OldTowel_005Desc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="apparelSkirt"/> <!-- DOUGH: The item -->
+      <property name="Material" value="Mcloth"/> <!-- The material to scrap it to -->
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_TeaTowel_001">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="210, 0, 133"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_TeaTowel_001Desc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="resourceCloth"/> <!-- DOUGH: The item -->
+      <property name="Material" value="Mcloth"/> <!-- The material to scrap it to -->
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+    <item name="doughs_UselessItem_TeaTowel_002">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="133, 126, 126"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_TeaTowel_002Desc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="resourceCloth"/> <!-- DOUGH: The item -->
+      <property name="Material" value="Mcloth"/> <!-- The material to scrap it to -->
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+    <item name="doughs_UselessItem_TeaTowel_003">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="0, 182, 210"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_TeaTowel_003Desc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="modArmorCoolingMesh"/> <!-- DOUGH: The item -->
+      <property name="Material" value="Mcloth"/> <!-- The material to scrap it to -->
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+    <item name="doughs_UselessItem_TeaTowel_004">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="210,4,0"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_TeaTowel_004Desc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="resourceCloth"/> <!-- DOUGH: The item -->
+      <property name="Material" value="Mcloth"/> <!-- The material to scrap it to -->
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+    <item name="doughs_UselessItem_TeaTowel_005">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_TeaTowel_005Desc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="modArmorCoolingMesh"/> <!-- DOUGH: The item -->
+      <property name="Material" value="Mcloth"/> <!-- The material to scrap it to -->
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_ToyWheel">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_ToyWheelDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="vehicleWheels"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_ChairWheel">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_ChairWheelDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="vehicleWheels"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_ChairWheel">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_ChairWheelDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="vehicleWheels"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_FancyChildsBelt">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="102, 102, 255"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_FancyChildsBeltDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="meleeKnucklesLeather"/> <!-- DOUGH: The item -->
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+      <property name="Material" value="Mleather"/> <!-- The material to scrap it to -->
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_Lipstick_001">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="88, 0, 210"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_Lipstick_001Desc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="ammo9mmBulletBall"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_Lipstick_002">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="210, 0, 133"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_Lipstick_002Desc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="ammo9mmBulletHP"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_Lipstick_003">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="0, 182, 210"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_Lipstick_003Desc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="ammo9mmBulletAP"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_HobbyClock_001">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_HobbyClock_001Desc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="thrownTimedCharge"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_CeramicMug_001">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="77, 142, 179"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_CeramicMug_001Desc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="drinkJarBlackStrapCoffee"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+    <item name="doughs_UselessItem_CeramicMug_002">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="162, 179, 77"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_CeramicMug_002Desc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="drinkJarBlackStrapCoffee"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+    <item name="doughs_UselessItem_CeramicMug_003">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="77, 142, 159"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_CeramicMug_003Desc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="drinkJarBlackStrapCoffee"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+    <item name="doughs_UselessItem_CeramicMug_004">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="0, 49, 210"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_CeramicMug_004Desc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="drinkJarBlackStrapCoffee"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+    <item name="doughs_UselessItem_CeramicMug_005">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_CeramicMug_005Desc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="drinkJarBlackStrapCoffee"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+    <item name="doughs_UselessItem_CeramicMug_006">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="140, 90, 108"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_CeramicMug_006Desc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="drinkJarBlackStrapCoffee"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+    <item name="doughs_UselessItem_CeramicMug_007">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="140, 80, 108"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_CeramicMug_007Desc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="drinkJarBlackStrapCoffee"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+    <item name="doughs_UselessItem_CeramicMug_008">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_CeramicMug_008Desc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="drinkJarBlackStrapCoffee"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+    <item name="doughs_UselessItem_CeramicMug_009">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="100, 90, 108"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_CeramicMug_009Desc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="drinkJarBlackStrapCoffee"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+    <item name="doughs_UselessItem_CeramicMug_010">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_CeramicMug_010Desc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="drinkJarBlackStrapCoffee"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_Cottonball">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_CottonballDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="resourceSnowBall"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_WiperFluid">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="0, 203, 210"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_WiperFluidDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="resourceAcid"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_PaintStripper">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="210, 94, 0"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_PaintStripperDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="resourceAcid"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_Lubricant">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="77, 123, 179"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_LubricantDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="resourceAcid"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_NippleWeights">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_NippleWeightsDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="resourceFishingWeight"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_FilmReel">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_FilmReelDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="resourceHubcap"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_CraftWire">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="162, 179, 77"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_CraftWireDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="modGunBowPolymerString"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <item name="doughs_UselessItem_VinylTwine">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="210,0,210"/>
+      <property name="DescriptionKey" value="doughs_UselessItem_VinylTwineDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="modGunBowPolymerString"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/>
+      <property name="SellableToTrader" value="true"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="EconomicValue" value="1"/> <!-- its worth the raw material -->
+    </item>
+
+    <!-- ######################################################################
+    Boxes to Open
+    -->
+
+    <!-- Open a box. can put as much as you want int it, list can be looong -->
+    <item name="doughs_Parcel_Base">
+    	<property name="CustomIcon" value="cntGarageStorage"/>
+      <property name="ItemTypeIcon" value="bundle"/>
+      <property name="DescriptionKey" value="doughs_Parcel_BaseDesc"/> <!-- DOUGH: Fun text -->
+    	<property name="CustomIconTint" value="242, 242, 242"/> <!-- DOUGH: LIght Shade -->
+    	<property name="HoldType" value="45"/>
+    	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+    	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+    	<property name="Material" value="Mmetal"/>  <!-- DOUGH: Make metal -->
+    	<property name="Stacknumber" value="1"/>
+    	<property name="Weight" value="0"/>
+    	<property name="SellableToTrader" value="false"/>
+    	<property class="Action0">
+    		<property name="Class" value="OpenBundle"/>
+        <property name="Sound_start" value="open_cardboard"/>
+    		<property name="Delay" value="0"/>
+    		<property name="Use_time" value="0"/>
+        <property name="Create_item" value="meleeToolWireTool,ammoGasCan"/>
+     		<property name="Create_item_count" value="1,2"/>
+    	</property>
+    </item>
+
+    <!-- ##########
+    Parcels
+    ############# -->
+    <item name="doughs_ParcelNote_Grandma_001">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="CustomIconTint" value="210,4,0"/>
+      <property name="DescriptionKey" value="doughs_ParcelNote_Grandma_001Desc"/>
+    </item>
+    <item name="doughs_Parcel_Grandma_001">
+    	<property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="CustomIconTint" value="210,4,0"/>
+      <property name="DescriptionKey" value="doughs_Parcel_Grandma_001Desc"/> <!-- DOUGH: Fun text -->
+    	<property class="Action0">
+    		<property name="Create_item" value="doughs_ParcelNote_Grandma_001,doughs_UselessItem_WrappingPaperRibbon,meleeToolPaintTool,modDyeWhite,modDyeRed,modDyeGreen,modDyeYellow"/>
+    		<property name="Create_item_count" value="1,1,1,1,1,1,1"/>
+    	</property>
+    </item>
+
+    <item name="doughs_ParcelNote_Grandma_002">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="CustomIconTint" value="217, 211, 237"/>
+      <property name="DescriptionKey" value="doughs_ParcelNote_Grandma_002Desc"/>
+    </item>
+    <item name="doughs_Parcel_Grandma_002">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="CustomIconTint" value="179, 159, 77"/>
+      <property name="DescriptionKey" value="doughs_Parcel_Grandma_002Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_ParcelNote_Grandma_002,doughs_UselessItem_WrappingPaperRibbon,doughs_UselessItem_BlueberryPieDish,doughs_UselessItem_TeaTowel_001"/>
+        <property name="Create_item_count" value="1,1,1,1"/>
+      </property>
+    </item>
+
+    <item name="doughs_ParcelNote_Grandma_003">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="CustomIconTint" value="179, 159, 77"/>
+      <property name="DescriptionKey" value="doughs_ParcelNote_Grandma_003Desc"/>
+    </item>
+    <item name="doughs_Parcel_Grandma_003">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="CustomIconTint" value="217, 211, 237"/>
+      <property name="DescriptionKey" value="doughs_Parcel_Grandma_003Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_ParcelNote_Grandma_003,doughs_UselessItem_WrappingPaperRibbon,doughs_UselessItem_DollhouseSizedWorkbench"/>
+        <property name="Create_item_count" value="1,1,1"/>
+      </property>
+    </item>
+
+    <item name="doughs_ParcelNote_Grandma_004">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="CustomIconTint" value="88, 0, 210"/>
+      <property name="DescriptionKey" value="doughs_ParcelNote_Grandma_004Desc"/>
+    </item>
+    <item name="doughs_Parcel_Grandma_004">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="CustomIconTint" value="88, 0, 210"/>
+      <property name="DescriptionKey" value="doughs_Parcel_Grandma_004Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_ParcelNote_Grandma_004,doughs_UselessItem_WrappingPaperRibbon,gunBowWooden,ammoBundleArrowSteelAP"/>
+        <property name="Create_item_count" value="1,1,1,1"/>
+      </property>
+    </item>
+
+    <item name="doughs_ParcelNote_Grandma_005">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="CustomIconTint" value="179, 159, 77"/>
+      <property name="DescriptionKey" value="doughs_ParcelNote_Grandma_005Desc"/>
+    </item>
+    <item name="doughs_Parcel_Grandma_005">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="DescriptionKey" value="doughs_Parcel_Grandma_005Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_gunPistolBB,doughs_BrassBB"/>
+        <property name="Create_item_count" value="1,400"/>
+      </property>
+    </item>
+
+    <item name="doughs_ParcelNote_Grandpa_001">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_ParcelNote_Grandpa_001Desc"/>
+    </item>
+    <item name="doughs_Parcel_Grandpa_001">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="CustomIconTint" value="88, 0, 210"/>
+      <property name="DescriptionKey" value="doughs_Parcel_Grandpa_001Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_ParcelNote_Grandma_005,doughs_UselessItem_WrappingPaperRibbon,doughs_UselessItem_CrazyStraw"/>
+        <property name="Create_item_count" value="1,1,3"/>
+      </property>
+    </item>
+
+    <item name="doughs_ParcelNote_Grandpa_002">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_ParcelNote_Grandpa_002Desc"/>
+    </item>
+    <item name="doughs_Parcel_Grandpa_002">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="CustomIconTint" value="217, 211, 237"/>
+      <property name="DescriptionKey" value="doughs_Parcel_Grandpa_002Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_ParcelNote_Grandpa_002,doughs_UselessItem_CellophaneTape,doughs_UselessItem_ToyExpandingFoam"/>
+        <property name="Create_item_count" value="1,1,6"/>
+      </property>
+    </item>
+
+    <item name="doughs_ParcelNote_Grandpa_003">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_ParcelNote_Grandpa_003Desc"/>
+    </item>
+    <item name="doughs_Parcel_Grandpa_003">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="CustomIconTint" value="210,4,0"/>
+      <property name="DescriptionKey" value="doughs_Parcel_Grandpa_003Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_ParcelNote_Grandpa_003,doughs_UselessItem_CellophaneTape,doughs_UselessItem_LockPick"/>
+        <property name="Create_item_count" value="1,2,1"/>
+      </property>
+    </item>
+
+    <item name="doughs_ParcelNote_Grandpa_004">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_ParcelNote_Grandpa_004Desc"/>
+    </item>
+    <item name="doughs_Parcel_Grandpa_004">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="CustomIconTint" value="179, 159, 77"/>
+      <property name="DescriptionKey" value="doughs_Parcel_Grandpa_004Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_ParcelNote_Grandpa_004,doughs_UselessItem_WrappingPaperRibbon,ammoBundleCrossbowBoltSteelAP"/>
+        <property name="Create_item_count" value="1,1,1"/>
+      </property>
+    </item>
+    <item name="doughs_ParcelNote_Grandpa_005">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_ParcelNote_Grandpa_005Desc"/>
+    </item>
+    <item name="doughs_Parcel_Grandpa_005">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="DescriptionKey" value="doughs_Parcel_Grandpa_005Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_gunPistolBB,doughs_BrassBB"/>
+        <property name="Create_item_count" value="1,600"/>
+      </property>
+    </item>
+    <item name="doughs_ParcelNote_Birthday_001">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="CustomIconTint" value="179, 159, 77"/>
+      <property name="DescriptionKey" value="doughs_ParcelNote_Birthday_001Desc"/>
+    </item>
+    <item name="doughs_Parcel_Birthday_001">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="DescriptionKey" value="doughs_Parcel_Birthday_001Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="apparelHoodySweatshirt"/>
+        <property name="Create_item_count" value="1"/>
+      </property>
+    </item>
+    <item name="doughs_ParcelNote_Birthday_002">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="CustomIconTint" value="179, 159, 77"/>
+      <property name="DescriptionKey" value="doughs_ParcelNote_Birthday_002Desc"/>
+    </item>
+    <item name="doughs_Parcel_Birthday_002">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="DescriptionKey" value="doughs_Parcel_Birthday_002Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="foodCanCatfood"/>
+        <property name="Create_item_count" value="24"/>
+      </property>
+    </item>
+    <item name="doughs_ParcelNote_Birthday_003">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="CustomIconTint" value="179, 159, 77"/>
+      <property name="DescriptionKey" value="doughs_ParcelNote_Birthday_003Desc"/>
+    </item>
+    <item name="doughs_Parcel_Birthday_003">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="DescriptionKey" value="doughs_Parcel_Birthday_003Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="foodCanDogfood"/>
+        <property name="Create_item_count" value="24"/>
+      </property>
+    </item>
+
+    <item name="doughs_ParcelNote_Birthday_004">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="CustomIconTint" value="179, 159, 77"/>
+      <property name="DescriptionKey" value="doughs_ParcelNote_Birthday_004Desc"/>
+    </item>
+    <item name="doughs_Parcel_Birthday_004">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="CustomIconTint" value="0, 0, 0"/>
+      <property name="DescriptionKey" value="doughs_Parcel_Birthday_004Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_ParcelNote_Birthday_004,doughs_UselessItem_WrappingPaperRibbon,doughs_UselessItem_NippleWeights,doughs_UselessItem_VinylTwine"/>
+        <property name="Create_item_count" value="1,1,2,2"/>
+      </property>
+    </item>
+    <item name="doughs_ParcelNote_Birthday_005">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="CustomIconTint" value="179, 159, 77"/>
+      <property name="DescriptionKey" value="doughs_ParcelNote_Birthday_005Desc"/>
+    </item>
+    <item name="doughs_Parcel_Birthday_005">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="DescriptionKey" value="doughs_Parcel_Birthday_005Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_ParcelNote_Birthday_005,doughs_UselessItem_WrappingPaperRibbon,doughs_UselessItem_CeramicMug_010"/>
+        <property name="Create_item_count" value="1,1,1"/>
+      </property>
+    </item>
+
+    <item name="doughs_Parcel_ReturnedItem_001">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="DescriptionKey" value="doughs_Parcel_ReturnedItem_001Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_UselessItem_AirFreshener,doughs_UselessItem_CellophaneTape"/>
+        <property name="Create_item_count" value="4,1"/>
+      </property>
+    </item>
+    <item name="doughs_Parcel_ReturnedItem_002">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="DescriptionKey" value="doughs_Parcel_ReturnedItem_002Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_UselessItem_CeramicMug_006,doughs_UselessItem_CellophaneTape"/>
+        <property name="Create_item_count" value="4,1"/>
+      </property>
+    </item>
+    <item name="doughs_Parcel_ReturnedItem_003">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="DescriptionKey" value="doughs_Parcel_ReturnedItem_003Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_UselessItem_SprayTan,doughs_UselessItem_CellophaneTape"/>
+        <property name="Create_item_count" value="8,2"/>
+      </property>
+    </item>
+    <item name="doughs_Parcel_ReturnedItem_004">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="DescriptionKey" value="doughs_Parcel_ReturnedItem_004Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_BrownBook_010,doughs_UselessItem_CellophaneTape"/>
+        <property name="Create_item_count" value="1,1"/>
+      </property>
+    </item>
+    <item name="doughs_Parcel_ReturnedItem_005">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="DescriptionKey" value="doughs_Parcel_ReturnedItem_005Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_BrownBook_002,doughs_UselessItem_CellophaneTape"/>
+        <property name="Create_item_count" value="1,1"/>
+      </property>
+    </item>
+
+    <item name="doughs_Parcel_UnopenedPackage_001">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="DescriptionKey" value="doughs_Parcel_UnopenedPackage_001Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="gunToolNailgun,resourceNail,doughs_UselessItem_CellophaneTape"/>
+        <property name="Create_item_count" value="1,250,1"/>
+      </property>
+    </item>
+    <item name="doughs_Parcel_UnopenedPackage_002">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="DescriptionKey" value="doughs_Parcel_UnopenedPackage_002Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_UselessItem_Lipstick_002,doughs_UselessItem_CellophaneTape"/>
+        <property name="Create_item_count" value="1,a"/>
+      </property>
+    </item>
+    <item name="doughs_Parcel_UnopenedPackage_003">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="DescriptionKey" value="doughs_Parcel_UnopenedPackage_003Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="resourcePaper,doughs_UselessItem_CellophaneTape"/>
+        <property name="Create_item_count" value="1,a"/>
+      </property>
+    </item>
+    <item name="doughs_Parcel_UnopenedPackage_004">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="DescriptionKey" value="doughs_Parcel_UnopenedPackage_004Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="candle,resourceCandleStick"/>
+        <property name="Create_item_count" value="4,4"/>
+      </property>
+    </item>
+    <item name="doughs_Parcel_UnopenedPackage_005">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="DescriptionKey" value="doughs_Parcel_UnopenedPackage_005Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="apparelShades,doughs_UselessItem_CellophaneTape"/>
+        <property name="Create_item_count" value="1,1"/>
+      </property>
+    </item>
+    <item name="doughs_Parcel_UnopenedPackage_006">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="DescriptionKey" value="doughs_Parcel_UnopenedPackage_006Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="apparelGothPants,apparelGothBoots,apparelLongShirt,doughs_UselessItem_CellophaneTape"/>
+        <property name="Create_item_count" value="1,1,1,1"/>
+      </property>
+    </item>
+    <item name="doughs_Parcel_UnopenedPackage_007">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="DescriptionKey" value="doughs_Parcel_UnopenedPackage_007Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="apparelLongShirt,apparelLongShirt,apparelLongShirt"/>
+        <property name="Create_item_count" value="1,1,1,1"/>
+      </property>
+    </item>
+    <item name="doughs_Parcel_UnopenedPackage_008">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="DescriptionKey" value="doughs_Parcel_UnopenedPackage_008Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="resourcePaper"/>
+        <property name="Create_item_count" value="200"/>
+      </property>
+    </item>
+    <item name="doughs_Parcel_UnopenedPackage_009">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="DescriptionKey" value="doughs_Parcel_UnopenedPackage_009Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="resourceElectricParts,resourceElectronicParts,switch,meleeToolWireTool,speaker,solarCell"/>
+        <property name="Create_item_count" value="10,10,1,1,1,1"/>
+      </property>
+    </item>
+    <item name="doughs_Parcel_UnopenedPackage_010">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="DescriptionKey" value="doughs_Parcel_UnopenedPackage_010Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_BrownBook_004,doughs_BrownBook_003,doughs_BrownBook_001"/>
+        <property name="Create_item_count" value="1,1,1"/>
+      </property>
+    </item>
+
+
+    <item name="doughs_ParcelNote_Sorry_001">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_ParcelNote_Sorry_001Desc"/>
+    </item>
+    <item name="doughs_ParcelNote_SorryCoupon_001">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_ParcelNote_SorryCoupon_001Desc"/>
+    </item>
+    <item name="doughs_Parcel_Sorry_001">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="DescriptionKey" value="doughs_Parcel_Sorry_001Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_ParcelNote_Sorry_001"/>
+        <property name="Create_item_count" value="1"/>
+      </property>
+    </item>
+    <item name="doughs_ParcelNote_Sorry_002">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_ParcelNote_Sorry_002Desc"/>
+    </item>
+    <item name="doughs_ParcelNote_SorryCoupon_002">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_ParcelNote_SorryCoupon_002Desc"/>
+    </item>
+    <item name="doughs_Parcel_Sorry_002">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="DescriptionKey" value="doughs_Parcel_Sorry_002Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_ParcelNote_Sorry_002,doughs_ParcelNote_SorryCoupon_002"/>
+        <property name="Create_item_count" value="1"/>
+      </property>
+    </item>
+    <item name="doughs_ParcelNote_Sorry_003">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_ParcelNote_Sorry_003Desc"/>
+    </item>
+    <item name="doughs_ParcelNote_SorryCoupon_003">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_ParcelNote_SorryCoupon_003Desc"/>
+    </item>
+    <item name="doughs_Parcel_Sorry_003">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="DescriptionKey" value="doughs_ParcelNote_SorryCoupon_003Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_ParcelNote_Sorry_003,doughs_ParcelNote_SorryCoupon_003"/>
+        <property name="Create_item_count" value="1,1"/>
+      </property>
+    </item>
+    <item name="doughs_ParcelNote_Sorry_004">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_ParcelNote_Sorry_004Desc"/>
+    </item>
+    <item name="doughs_ParcelNote_SorryCoupon_004">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_ParcelNote_SorryCoupon_004Desc"/>
+    </item>
+    <item name="doughs_Parcel_Sorry_004">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="DescriptionKey" value="doughs_Parcel_Sorry_004Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_ParcelNote_Sorry_004,doughs_ParcelNote_SorryCoupon_004"/>
+        <property name="Create_item_count" value="1,1"/>
+      </property>
+    </item>
+    <item name="doughs_ParcelNote_Sorry_005">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_ParcelNote_Sorry_005Desc"/>
+    </item>
+    <item name="doughs_ParcelNote_SorryCoupon_005">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_ParcelNote_SorryCoupon_005Desc"/>
+    </item>
+    <item name="doughs_Parcel_Sorry_005">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="DescriptionKey" value="doughs_Parcel_Sorry_005Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_ParcelNote_Sorry_005,doughs_ParcelNote_SorryCoupon_005"/>
+        <property name="Create_item_count" value="1,1"/>
+      </property>
+    </item>
+
+
+    <!-- ######################################################################
+    GAME BOXES - Make them all the same color!
+    ####################################################################### -->
+
+    <!--
+    TicTacToe
+    -->
+    <item name="doughs_ParcelNote_Game_TicTacToe">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_ParcelNote_Game_TicTacToeDesc"/>
+    </item>
+    <item name="doughs_Parcel_Game_TicTacToe_001">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="CustomIconTint" value="0, 133, 210"/>
+      <property name="DescriptionKey" value="doughs_Parcel_Game_TicTacToe_001Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_cntGameBoardTicTacToe,doughs_ParcelNote_Game_TicTacToe,doughs_UselessItem_WrappingPaperRibbon"/>
+        <property name="Create_item_count" value="1,1,1"/>
+      </property>
+    </item>
+
+    <!--
+    Checkers
+    -->
+    <item name="doughs_CheckersBlock_1">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="255, 0, 0"/>
+      <property name="DescriptionKey" value="doughs_CheckersBlock_1Desc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="casinoCoin"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/> <!-- DOUGH: So you can only stack enough for a single game -->
+      <property name="SellableToTrader" value="false"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="Stacknumber" value="16"/> <!-- DOUGH: So you can only stack enough for a single game -->
+      <property name="EconomicValue" value="0"/> <!-- DOUGH: 0 -->
+    </item>
+    <item name="doughs_CheckersBlock_2">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="64, 64, 64"/> <!-- DOUGH: BLACK. Not super black or it washes out details -->
+      <property name="DescriptionKey" value="doughs_CheckersBlock_2Desc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="casinoCoin"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/> <!-- DOUGH: So you can only stack enough for a single game -->
+      <property name="SellableToTrader" value="false"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="Stacknumber" value="16"/> <!-- DOUGH: So you can only stack enough for a single game -->
+      <property name="EconomicValue" value="0"/> <!-- DOUGH: 0 -->
+    </item>
+
+    <item name="doughs_ParcelNote_Game_Checkers">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_ParcelNote_Game_CheckersDesc"/>
+    </item>
+    <item name="doughs_Parcel_Game_Checkers_001">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="CustomIconTint" value="0, 133, 210"/>
+      <property name="DescriptionKey" value="doughs_Parcel_Game_Checkers_001Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_cntGameBoardChessAndCheckers,doughs_ParcelNote_Game_Checkers,doughs_UselessItem_WrappingPaperRibbon"/>
+        <property name="Create_item_count" value="1,1,1,1"/>
+      </property>
+    </item>
+
+    <!--
+    Chess
+    -->
+    <item name="doughs_ChessPiece_Pawn_Red">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <!-- <property name="CustomIconTint" value="255, 173, 153"/> --><!-- DOUGH: Standard red is Waaaay to red, washed out -->
+      <property name="DescriptionKey" value="doughs_ChessPiece_Pawn_RedDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="meleeToolTorch"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/> <!-- DOUGH: So you can only stack enough for a single game -->
+      <property name="SellableToTrader" value="false"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="Stacknumber" value="8"/> <!-- DOUGH: So you can only stack enough for a single game -->
+      <property name="EconomicValue" value="0"/> <!-- DOUGH: 0 -->
+    </item>
+    <item name="doughs_ChessPiece_Knight_Red">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="255, 51, 0"/>
+      <property name="DescriptionKey" value="doughs_ChessPiece_Knight_RedDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="armorSteelHelmet"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/> <!-- DOUGH: So you can only stack enough for a single game -->
+      <property name="SellableToTrader" value="false"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="Stacknumber" value="2"/> <!-- DOUGH: So you can only stack enough for a single game -->
+      <property name="EconomicValue" value="0"/> <!-- DOUGH: 0 -->
+    </item>
+    <item name="doughs_ChessPiece_Bishop_Red">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <!-- <property name="CustomIconTint" value="255, 51, 0"/>  -->
+      <property name="DescriptionKey" value="doughs_ChessPiece_Bishop_RedDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="drinkJarRedTea"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/> <!-- DOUGH: So you can only stack enough for a single game -->
+      <property name="SellableToTrader" value="false"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="Stacknumber" value="2"/> <!-- DOUGH: So you can only stack enough for a single game -->
+      <property name="EconomicValue" value="0"/> <!-- DOUGH: 0 -->
+    </item>
+    <item name="doughs_ChessPiece_Rook_Red">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="255, 51, 0"/>
+      <property name="DescriptionKey" value="doughs_ChessPiece_Rook_RedDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="forge"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/> <!-- DOUGH: So you can only stack enough for a single game -->
+      <property name="SellableToTrader" value="false"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="Stacknumber" value="2"/> <!-- DOUGH: So you can only stack enough for a single game -->
+      <property name="EconomicValue" value="0"/> <!-- DOUGH: 0 -->
+    </item>
+
+    <item name="doughs_ChessPiece_Pawn_Blue">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="153, 255, 255"/> <!-- DOUGH: Standard blue is a little washed out -->
+      <property name="DescriptionKey" value="doughs_ChessPiece_Pawn_BlueDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="meleeToolTorch"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/> <!-- DOUGH: So you can only stack enough for a single game -->
+      <property name="SellableToTrader" value="false"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="Stacknumber" value="8"/> <!-- DOUGH: So you can only stack enough for a single game -->
+      <property name="EconomicValue" value="0"/> <!-- DOUGH: 0 -->
+    </item>
+    <item name="doughs_ChessPiece_Knight_Blue">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="102, 255, 255"/>
+      <property name="DescriptionKey" value="doughs_ChessPiece_Knight_BlueDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="armorSteelHelmet"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/> <!-- DOUGH: So you can only stack enough for a single game -->
+      <property name="SellableToTrader" value="false"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="Stacknumber" value="2"/> <!-- DOUGH: So you can only stack enough for a single game -->
+      <property name="EconomicValue" value="0"/> <!-- DOUGH: 0 -->
+    </item>
+    <item name="doughs_ChessPiece_Bishop_Blue">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="153, 255, 255"/>
+      <property name="DescriptionKey" value="doughs_ChessPiece_Bishop_BlueDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="drinkJarBoiledWater"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/> <!-- DOUGH: So you can only stack enough for a single game -->
+      <property name="SellableToTrader" value="false"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="Stacknumber" value="2"/> <!-- DOUGH: So you can only stack enough for a single game -->
+      <property name="EconomicValue" value="0"/> <!-- DOUGH: 0 -->
+    </item>
+    <item name="doughs_ChessPiece_Rook_Blue">
+      <property name="Extends" value="doughs_UselessItem_Base"/>
+      <property name="CustomIconTint" value="102, 255, 255"/>
+      <property name="DescriptionKey" value="doughs_ChessPiece_Rook_BlueDesc"/> <!-- DOUGH: Fun text -->
+      <property name="CustomIcon" value="forge"/> <!-- DOUGH: The item -->
+      <property name="NoScrapping" value="true"/> <!-- DOUGH: So you can only stack enough for a single game -->
+      <property name="SellableToTrader" value="false"/> <!-- its worth the raw material.  And maybe someone buys it? :) -->
+      <property name="Stacknumber" value="2"/> <!-- DOUGH: So you can only stack enough for a single game -->
+      <property name="EconomicValue" value="0"/> <!-- DOUGH: 0 -->
+    </item>
+
+    <item name="doughs_ParcelNote_Game_Chess">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_ParcelNote_Game_ChessDesc"/>
+    </item>
+    <item name="doughs_Parcel_Game_Chess_001">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="CustomIconTint" value="0, 133, 210"/>
+      <property name="DescriptionKey" value="doughs_Parcel_Game_Chess_001Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_cntGameBoardChessAndCheckers,doughs_ParcelNote_Game_Chess,doughs_UselessItem_WrappingPaperRibbon"/>
+        <property name="Create_item_count" value="1,1,1"/>
+      </property>
+    </item>
+
+    <!-- Soduku madness.
+    smh ~~This was a lot more work than it was worth~~
+    NOTE: Game page difficulty is:
+    1-25: easy
+    26-50: meduium
+    51-75: hard
+    75-100: super hard
+    -->
+    <item name="doughs_Page_Game_Soduku_001">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_Page_Game_Soduku_001Desc"/>
+    </item>
+    <item name="doughs_Page_Game_Soduku_002">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_Page_Game_Soduku_002Desc"/>
+    </item>
+    <item name="doughs_Page_Game_Soduku_003">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_Page_Game_Soduku_003Desc"/>
+    </item>
+    <item name="doughs_Page_Game_Soduku_026">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_Page_Game_Soduku_004Desc"/>
+    </item>
+    <item name="doughs_Page_Game_Soduku_027">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_Page_Game_Soduku_005Desc"/>
+    </item>
+    <item name="doughs_Page_Game_Soduku_028">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_Page_Game_Soduku_010Desc"/>
+    </item>
+    <item name="doughs_Page_Game_Soduku_029">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_Page_Game_Soduku_011Desc"/>
+    </item>
+    <item name="doughs_Page_Game_Soduku_051">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_Page_Game_Soduku_006Desc"/>
+    </item>
+    <item name="doughs_Page_Game_Soduku_052">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_Page_Game_Soduku_007Desc"/>
+    </item>
+    <item name="doughs_Page_Game_Soduku_075">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_Page_Game_Soduku_008Desc"/>
+    </item>
+    <item name="doughs_Page_Game_Soduku_076">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_Page_Game_Soduku_009Desc"/>
+    </item>
+
+    <item name="doughs_Book_Game_Soduku_001">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="CustomIcon" value="schematicMaster"/> <!-- looks like old brown book -->
+      <property name="DescriptionKey" value="doughs_Book_Game_Soduku_001Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_Page_Game_Soduku_001,doughs_Page_Game_Soduku_002,doughs_Page_Game_Soduku_003"/>
+        <property name="Create_item_count" value="1,1,1"/>
+      </property>
+    </item>
+    <item name="doughs_Book_Game_Soduku_002">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="CustomIcon" value="schematicMaster"/> <!-- looks like old brown book -->
+      <property name="DescriptionKey" value="doughs_Book_Game_Soduku_002Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_Page_Game_Soduku_026,doughs_Page_Game_Soduku_027"/>
+        <property name="Create_item_count" value="1,1"/>
+      </property>
+    </item>
+    <item name="doughs_Book_Game_Soduku_003">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="CustomIcon" value="schematicMaster"/> <!-- looks like old brown book -->
+      <property name="DescriptionKey" value="doughs_Book_Game_Soduku_003Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_Page_Game_Soduku_051,doughs_Page_Game_Soduku_052"/>
+        <property name="Create_item_count" value="1,1"/>
+      </property>
+    </item>
+    <item name="doughs_Book_Game_Soduku_004">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="CustomIcon" value="schematicMaster"/> <!-- looks like old brown book -->
+      <property name="DescriptionKey" value="doughs_Book_Game_Soduku_004Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_Page_Game_Soduku_075,doughs_Page_Game_Soduku_076"/>
+        <property name="Create_item_count" value="1,1"/>
+      </property>
+    </item>
+    <item name="doughs_Book_Game_Soduku_005">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="CustomIcon" value="schematicMaster"/> <!-- looks like old brown book -->
+      <property name="DescriptionKey" value="doughs_Book_Game_Soduku_005Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_Page_Game_Soduku_028,doughs_Page_Game_Soduku_029"/>
+        <property name="Create_item_count" value="1,1"/>
+      </property>
+    </item>
+    <!-- Box containing game, schematic and book with pages
+    NOTE: Purposefully not making pieces "lootable" to make player craft them
+    and to save blocks/time ans all we can do it color them.  Meh.
+    This game takes up too much XML as-is don't make it bigger
+    -->
+    <item name="doughs_ParcelNote_Game_Soduku">
+      <property name="Extends" value="doughs_PaperNote_Base"/>
+      <property name="DescriptionKey" value="doughs_ParcelNote_Game_SodukuDesc"/>
+    </item>
+    <item name="doughs_Game_Soduku_Pieces_Schematic">
+    	<property name="Extends" value="schematicMaster"/>
+    	<property name="CreativeMode" value="Player"/>
+    	<property name="CustomIcon" value="schematicMaster"/>
+      <property name="DescriptionKey" value="doughs_Game_Soduku_Pieces_SchematicDesc"/> <!-- DOUGH: Fun text -->
+    	<property name="Unlocks" value="doughs_GameBlock_1,doughs_GameBlock_2,doughs_GameBlock_3,doughs_GameBlock_4,doughs_GameBlock_5,doughs_GameBlock_6,doughs_GameBlock_7,doughs_GameBlock_8,doughs_GameBlock_9"/>
+    	<effect_group tiered="false">
+    		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="doughs_GameBlock_1" operation="set" value="1"/>
+    		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="doughs_GameBlock_2" operation="set" value="1"/>
+    		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="doughs_GameBlock_3" operation="set" value="1"/>
+    		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="doughs_GameBlock_4" operation="set" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="doughs_GameBlock_5" operation="set" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="doughs_GameBlock_6" operation="set" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="doughs_GameBlock_7" operation="set" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="doughs_GameBlock_8" operation="set" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="doughs_GameBlock_9" operation="set" value="1"/>
+    		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+    	</effect_group>
+    </item>
+    <item name="doughs_Parcel_Game_Soduku_001">
+      <property name="Extends" value="doughs_Parcel_Base"/>
+      <property name="CustomIconTint" value="0, 133, 210"/>
+      <property name="DescriptionKey" value="doughs_Parcel_Game_Soduku_001Desc"/> <!-- DOUGH: Fun text -->
+      <property class="Action0">
+        <property name="Create_item" value="doughs_cntGameBoardSoduku,doughs_Game_Soduku_Pieces_Schematic,doughs_Book_Game_Soduku_001,doughs_UselessItem_WrappingPaperRibbon"/>
+        <property name="Create_item_count" value="1,1,1,2"/>
+      </property>
+    </item>
+
+    <!--- ##############################################################
+    END: GAME BOXES
+    ##############################################################   -->
+
+
+    <!-- ######################################################################
+    Treasure: TODO: figure out localization
+    ####################################################################### -->
+    <!--
+    <item name="doughs_treasure_map_001">
+      <property name="Extends" value="treasureQuestMaster"/>
+      <property class="Action0">
+        <property name="QuestGiven" value="doughs_treasure_offer_001"/>
+      </property>
+    </item>
+     -->
+    <!-- ######################################################################
+    Challenges/quests TODO: figure out namine + localization
+    ####################################################################### -->
+    <!--
+    <item name="doughsTestMail">
+      <property name="Extends" value="challengeQuestMaster"/>
+      <property class="Action0">
+        <property name="QuestGiven" value="doughs_test_fetch"/>
+      </property>
+    </item>
+     -->
+ </append>>
+</Doughs>

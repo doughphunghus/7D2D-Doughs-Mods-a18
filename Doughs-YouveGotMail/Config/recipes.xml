@@ -1,0 +1,76 @@
+<Doughs>
+  <append xpath="/recipes">
+
+    <recipe name="doughs_BrassBB" count="10" material_based="true" craft_area="forge">
+      <ingredient name="unit_brass" count="1"/>
+      <effect_group>
+        <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_brass"/>
+      </effect_group>
+    </recipe>
+
+    <recipe name="doughs_GameBlock_1" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
+      <ingredient name="unit_iron" count="15"/>
+      <ingredient name="unit_clay" count="3"/>
+      <effect_group>
+        <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_clay,unit_iron"/>
+      </effect_group>
+    </recipe>
+    <recipe name="doughs_GameBlock_2" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
+      <ingredient name="unit_iron" count="15"/>
+      <ingredient name="unit_clay" count="3"/>
+      <effect_group>
+        <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_clay,unit_iron"/>
+      </effect_group>
+    </recipe>
+    <recipe name="doughs_GameBlock_3" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
+      <ingredient name="unit_iron" count="15"/>
+      <ingredient name="unit_clay" count="3"/>
+      <effect_group>
+        <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_clay,unit_iron"/>
+      </effect_group>
+    </recipe>
+    <recipe name="doughs_GameBlock_4" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
+      <ingredient name="unit_iron" count="15"/>
+      <ingredient name="unit_clay" count="3"/>
+      <effect_group>
+        <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_clay,unit_iron"/>
+      </effect_group>
+    </recipe>
+    <recipe name="doughs_GameBlock_5" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
+      <ingredient name="unit_iron" count="15"/>
+      <ingredient name="unit_clay" count="3"/>
+      <effect_group>
+        <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_clay,unit_iron"/>
+      </effect_group>
+    </recipe>
+    <recipe name="doughs_GameBlock_6" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
+      <ingredient name="unit_iron" count="15"/>
+      <ingredient name="unit_clay" count="3"/>
+      <effect_group>
+        <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_clay,unit_iron"/>
+      </effect_group>
+    </recipe>
+    <recipe name="doughs_GameBlock_7" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
+      <ingredient name="unit_iron" count="15"/>
+      <ingredient name="unit_clay" count="3"/>
+      <effect_group>
+        <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_clay,unit_iron"/>
+      </effect_group>
+    </recipe>
+    <recipe name="doughs_GameBlock_8" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
+      <ingredient name="unit_iron" count="15"/>
+      <ingredient name="unit_clay" count="3"/>
+      <effect_group>
+        <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_clay,unit_iron"/>
+      </effect_group>
+    </recipe>
+    <recipe name="doughs_GameBlock_9" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
+      <ingredient name="unit_iron" count="15"/>
+      <ingredient name="unit_clay" count="3"/>
+      <effect_group>
+        <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_clay,unit_iron"/>
+      </effect_group>
+    </recipe>
+
+</append>
+</Doughs>

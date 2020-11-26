@@ -1,0 +1,53 @@
+<Doughs>
+
+  <!--
+  ########## Mod vanilla items ##########
+  NOTE: bedrock is 0 M and counts up.
+  I *think* that 70F is the baseline world temp (it is at game start) so I'm betting weather
+  fluctuates around this point?
+  -->
+
+  <!-- Not sure about this yet -->
+  <!-- <set xpath="/weathersurvival/TemperatureHeight/@addDegrees">20</set> --> <!-- DOUGH: Vanilla setting height = 0, addDegrees = 0 -->
+
+  <!-- Most of these values is credit to Clockwork Orange via 2016 forum post:
+  https://7daystodie.com/forums/showthread.php?37165-Unofficial-XML-Fixes/page9
+  -->
+  <append xpath="/weathersurvival">
+    <!-- Not sure about how to get hotter yet and do it well -->
+    <!-- <TemperatureHeight height="6" addDegrees="15"/> -->
+    <!-- <TemperatureHeight height="12" addDegrees="10"/> -->
+    <!-- <TemperatureHeight height="24" addDegrees="8"/> -->
+    <!-- <TemperatureHeight height="36" addDegrees="4"/> -->
+    <!-- <TemperatureHeight height="48" addDegrees="2"/> -->
+    <!-- <TemperatureHeight height="60" addDegrees="0"/> -->
+    <TemperatureHeight height="68" addDegrees="-1"/>
+    <TemperatureHeight height="76" addDegrees="-2"/>
+    <TemperatureHeight height="84" addDegrees="-3"/>
+    <TemperatureHeight height="92" addDegrees="-4"/>
+    <TemperatureHeight height="100" addDegrees="-5"/>
+    <TemperatureHeight height="106" addDegrees="-6"/>
+    <TemperatureHeight height="118" addDegrees="-8"/>
+    <TemperatureHeight height="130" addDegrees="-10"/>
+    <TemperatureHeight height="133" addDegrees="-12"/>
+    <TemperatureHeight height="137" addDegrees="-14"/>
+    <TemperatureHeight height="142" addDegrees="-17"/>
+    <TemperatureHeight height="147" addDegrees="-20"/>
+    <TemperatureHeight height="153" addDegrees="-23"/>
+    <TemperatureHeight height="158" addDegrees="-26"/>
+    <TemperatureHeight height="163" addDegrees="-29"/>
+    <TemperatureHeight height="168" addDegrees="-32"/>
+    <TemperatureHeight height="174" addDegrees="-35"/>
+    <TemperatureHeight height="179" addDegrees="-38"/>
+    <TemperatureHeight height="184" addDegrees="-41"/>
+    <TemperatureHeight height="189" addDegrees="-44"/>
+    <TemperatureHeight height="195" addDegrees="-47"/>
+    <TemperatureHeight height="200" addDegrees="-50"/>
+    <TemperatureHeight height="210" addDegrees="-55"/>
+    <TemperatureHeight height="220" addDegrees="-60"/>
+    <TemperatureHeight height="230" addDegrees="-65"/>
+    <TemperatureHeight height="240" addDegrees="-70"/>
+    <TemperatureHeight height="250" addDegrees="-75"/>
+    <TemperatureHeight height="255" addDegrees="-80"/>
+  </append>
+</Doughs>

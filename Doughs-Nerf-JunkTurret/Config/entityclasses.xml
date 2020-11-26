@@ -1,0 +1,14 @@
+<Doughs>
+
+  <!-- The turret you place on the ground-->
+  <set xpath="/entity_classes/entity_class[@name='turretJunk']/property[@name='WakeUpTime']/@value">2</set>  <!-- DOUGH: Default: 0.5 -->
+  <set xpath="/entity_classes/entity_class[@name='turretJunk']/property[@name='FallAsleepTime']/@value">3</set>  <!-- DOUGH: Default: 10 -->
+  <set xpath="/entity_classes/entity_class[@name='turretJunk']/property[@name='YawRange']/@value">55</set>  <!-- DOUGH: Default: 90 -->
+  <set xpath="/entity_classes/entity_class[@name='turretJunk']/property[@name='PitchRange']/@value">40</set>  <!-- DOUGH: Default: 70 -->
+  <set xpath="/entity_classes/entity_class[@name='turretJunk']/property[@name='TurnSpeed']/@value">6</set>  <!-- DOUGH: Default: 22.5 -->
+  <set xpath="/entity_classes/entity_class[@name='turretJunk']/property[@name='MaxDistance']/@value">10</set>  <!-- DOUGH: Default: 15 -->
+  <set xpath="/entity_classes/entity_class[@name='turretJunk']/property[@name='EntityDamage']/@value">8</set>  <!-- DOUGH: Default: 25 -->
+  <!-- <set xpath="/entity_classes/entity_class[@name='turretJunk']/property[@name='RaySpread']/@value">5</set> --> <!-- DOUGH: Default: 5 -->
+  <set xpath="/entity_classes/entity_class[@name='turretJunk']/property[@name='MaxOwnerDistance']/@value">3</set>  <!-- DOUGH: Default: 16 -->
+  <set xpath="/entity_classes/entity_class[@name='turretJunk']/property[@name='CooldownTime']/@value">1.5</set> <!-- DOUGH: Default: 1 -->
+</Doughs>
